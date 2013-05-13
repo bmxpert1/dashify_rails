@@ -7,9 +7,9 @@ require "dashify_rails/version"
 Gem::Specification.new do |s|
   s.name        = "dashify_rails"
   s.version     = DashifyRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = ["Kevin Bouwkamp"]
+  s.email       = ["kevin.bouwkamp@gmail.com"]
+  s.homepage    = "https://github.com/bmxpert1/dashify_rails"
   s.summary     = "Dashboarding framework for Rails."
   s.description = "Dashboarding framework for Rails. Inspired by dashing(https://github.com/Shopify/dashing)."
 
