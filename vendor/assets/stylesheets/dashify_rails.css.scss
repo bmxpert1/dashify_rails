@@ -1,5 +1,4 @@
 /*
-*= require ../javascripts/nvd3/src/nv.d3.css
 *= require jquery.gridster
 */
 
@@ -126,6 +125,14 @@ h4 {
 // ----------------------------------------------------------------------------
 .gridster {
   margin: 0px auto;
+
+  ul{
+    list-style: none;
+
+    li{
+      background-color: #aaa;
+    }
+  }
 }
 
 .icon-background {
@@ -139,10 +146,6 @@ h4 {
 }
 
 .list-nostyle {
-  list-style: none;
-}
-
-.gridster ul {
   list-style: none;
 }
 
