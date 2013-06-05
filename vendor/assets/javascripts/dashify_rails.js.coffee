@@ -5,8 +5,9 @@
 #= require ./nvd3/src/utils.js
 #= require_tree ./nvd3/src/models
 #= require set-nvd3-env.js.erb
-#= require websocket_rails/main
 #= require jquery.gridster
+#= require widget
+#= require connector
 
 $ ->
   $(".gridster ul").gridster
