@@ -3,6 +3,8 @@ class Gauge extends Widget
     @scope.highcharts
       chart:
         type: "gauge"
+        backgroundColor: 'transparent'
+        borderRadius: 0
         plotBackgroundColor: null
         plotBackgroundImage: null
         plotBorderWidth: 0
