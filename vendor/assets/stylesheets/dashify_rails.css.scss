@@ -1,5 +1,6 @@
 /*
 *= require jquery.gridster
+*= require font-awesome
 */
 
 // ----------------------------------------------------------------------------
@@ -15,6 +16,8 @@ $text-warning-color: #fff;
 $background-danger-color-1: #eeae32;
 $background-danger-color-2: #ff9618;
 $text-danger-color: #fff;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
 @-webkit-keyframes status-warning-background {
   0%   { background-color: $background-warning-color-1; }
@@ -155,7 +158,7 @@ h4 {
   cursor: pointer;
 }
 
-.widget {
+.dr-widget {
   padding: 0px 0px;
   text-align: center;
   width: 100%;
@@ -163,7 +166,7 @@ h4 {
   vertical-align: middle;
 }
 
-.widget.status-warning {
+.dr-widget.status-warning {
   background-color: $background-warning-color-1;
   @include animation(status-warning-background, 2s, ease, infinite);
 
@@ -176,7 +179,7 @@ h4 {
   }
 }
 
-.widget.status-danger {
+.dr-widget.status-danger {
   color: $text-danger-color;
   background-color: $background-danger-color-1;
   @include animation(status-danger-background, 2s, ease, infinite);
