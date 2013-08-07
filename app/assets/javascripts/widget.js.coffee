@@ -1,5 +1,6 @@
 class Widget
   constructor: (@scope, @connector) ->
+    @defaultValue = @scope.data('dr-value')
     @init()
   
     if @scope.data('dr-channel')    

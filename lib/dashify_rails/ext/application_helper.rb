@@ -1,5 +1,7 @@
 module ApplicationHelper
   def widget(partial, channel = nil, locals = {})
+    locals[:value] = (locals[:value] || []).to_json
+
     html = ''
     html += stylesheet_link_tag "widgets/#{partial}"
     html += javascript_include_tag "widgets/#{partial}"

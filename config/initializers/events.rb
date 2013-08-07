@@ -1,3 +1,4 @@
 WebsocketRails.setup do |config|
-  config.synchronize = true
+  # require redis server
+  config.synchronize = false
 end

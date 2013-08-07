@@ -1,3 +1,5 @@
+#= require highcharts
+
 class Gauge extends Widget
   init: =>
     @scope.highcharts
