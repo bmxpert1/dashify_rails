@@ -4,8 +4,8 @@ class Widget
     @init()
   
     if @scope.data('dr-channel')    
-      @chan = @scope.data('dr-channel')
-      @channel = @connector.dispatcher.subscribe @chan
+      chan = @scope.data('dr-channel')
+      @channel = @connector.dispatcher.subscribe chan
 
       @channel.bind 'update', (value) =>
         @update value

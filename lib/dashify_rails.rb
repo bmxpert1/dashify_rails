@@ -1,8 +1,8 @@
 require "dashify_rails/engine"
 
 module DashifyRails
-  def self.dashify_jobs_path
-    "app/jobs"
+  def self.app_dashify_path
+    "app/dashboard"
   end
 end
 
